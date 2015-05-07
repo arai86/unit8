@@ -10,6 +10,13 @@ package unit8;
  *
  * @author Felipe
  */
-public class Profesor {
-    
+public class Profesor
+{
+    public Profesor(String nombre,String dni)
+    {
+    }
+    public boolean esProfesor()
+    {
+        return true;
+    }
 }
