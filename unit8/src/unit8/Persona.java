@@ -60,5 +60,4 @@ public abstract class Persona
     public void ordenarPorNota()
     {
     }
-    
 }
