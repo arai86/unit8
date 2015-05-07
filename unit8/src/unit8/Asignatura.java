@@ -10,6 +10,28 @@ package unit8;
  *
  * @author Felipe
  */
-public class Asignatura {
+public class Asignatura 
+{
+    private String nombre;
+    private double nota;
+    public Asignatura(String nombre)
+    {
+        setNombre(nombre);
+    }
     
+    public String getNombre() {
+        return nombre;
+    }
+
+    public double getNota() {
+        return nota;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
 }
