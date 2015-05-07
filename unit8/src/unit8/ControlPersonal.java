@@ -33,6 +33,6 @@ public class ControlPersonal
     }
     public static void main(String[] args)
     {
-        Asignatura sistema=new Asignatura("Sistemas");
+        Asignatura sistema=new Asignatura("Bases de datos");
     }
 }
