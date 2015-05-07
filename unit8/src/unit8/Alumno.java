@@ -10,6 +10,11 @@ package unit8;
  *
  * @author Felipe
  */
-public class Alumno {
-    
+public class Alumno 
+{
+    Alumno(String nombre,String dni)
+    {
+        //setNombre(nombre);
+        //setDni(dni);
+    }
 }
