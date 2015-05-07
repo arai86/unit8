@@ -1,5 +1,7 @@
 package unit8;
 
+import java.util.ArrayList;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,6 +12,23 @@ package unit8;
  *
  * @author Felipe
  */
-public class ControlPersonal {
-    
+public class ControlPersonal 
+{
+    private ArrayList<Persona>personas;
+    public void anyadirPersona(Persona p)
+    {
+        personas.add(p);
+    }
+    public void ordenarPorDni()
+    {
+        
+    }
+    public void PorOrdenAlfabetico()
+    {
+        
+    }
+    public void mostrarListado()
+    {
+        
+    }
 }
