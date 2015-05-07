@@ -12,6 +12,15 @@ package unit8;
  */
 public class Profesor
 {
+    int salario;
+
+    public void setSalario(int salario) {
+        this.salario = salario;
+    }
+
+    public int getSalario() {
+        return salario;
+    }
     public Profesor(String nombre,String dni)
     {
     }
@@ -19,4 +28,5 @@ public class Profesor
     {
         return true;
     }
+    
 }
